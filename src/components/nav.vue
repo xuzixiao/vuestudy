@@ -1,10 +1,9 @@
 <template>
   <div class="nav">
-  <p>当前页面是：{{page}} </p>
-
     <router-link to="/index" active-class="active">首页</router-link>
     <router-link :to="{name:'search',query:{name:'xyy'}}" active-class="active">搜索页</router-link>
     <router-link to="/JADE"  active-class="active">JADE模板语法</router-link>
+    <router-link to="/Element"  active-class="active">Element-ui</router-link>
   </div>
 </template>
 

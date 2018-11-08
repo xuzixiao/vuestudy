@@ -15,7 +15,7 @@
 
 <p>嵌套路由显示</p>
 <router-view></router-view>
-<input type="text" @keyup.v="ale" />
+<!-- <input type="text" @keyup.v="ale" /> -->
 <button @click="changearr">显示大于500的数组</button>
 {{nowarrdate}}
 

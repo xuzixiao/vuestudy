@@ -4,6 +4,7 @@ import index from '@/pages/index'
 import search from '@/pages/search'
 import detail from '@/pages/detail'
 import hellojade from '@/components/hellojade'
+import Elementtem from '@/pages/element'
 
 Vue.use(Router)
 
@@ -36,6 +37,10 @@ export default new Router({
       path: '/JADE',
       name: 'hellojade',
       component: hellojade
+    },
+    {
+      path: "/Element",
+      component:Elementtem
     },
     {
       path: "*",

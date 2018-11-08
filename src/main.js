@@ -5,6 +5,11 @@ import App from './App'
 import router from './router'
 import store from "./store"
 
+import ElementUi from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+
+Vue.use(ElementUi,{ size: 'small', zIndex: 3000 });
+
 
 Vue.config.productionTip = false
 //Vue.config.silent=true     取消Vue 所有的日志与警告
@@ -22,7 +27,7 @@ var vm=new Vue({
   router,
   store,
  // components: { App },
-  render:h=>h(App)
+  render:h => h( App )
   
  // template: '<App/>'
 }).$mount("#app")
